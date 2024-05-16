@@ -1,0 +1,275 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('img/IMG_2525.jpg'); /* Remplacez 'votre-image.jpg' par le chemin de votre image */
+  background-size: cover; /* Pour couvrir tout l'arrière-plan */
+  background-position: center; /* Centrer l'image de fond */
+  background-attachment: fixed; /* Pour fixer l'image de fond pendant le défilement */
+}
+
+.logo{
+  font-size: 2em;
+  font-weight: bold;
+  color: #ffffff;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  
+  .products {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .products h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .product-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .product {
+    width: 25%;
+    background-color: #444444;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out; 
+  }
+  
+  .product a {
+    text-decoration: none;
+  }
+  
+  .product img {
+    width: 100%; /* Adjust image width if needed */
+    height: 50%;
+    object-fit: cover;
+  }
+  
+  .product-info {
+    height: 50%;
+    text-align: center;
+  }
+  
+  .product h3,
+  .product p {
+    margin-bottom: 5px;
+  }
+  
+  .product a.lien-affiliation {
+    background-color: #5ab857; /* Gray color */
+    color: #ffffff; /* Darker gray text */
+    padding: 10px 20px; /* Increased padding for better visibility */
+    border: none;
+    border-radius: 20px; /* Oval shape */
+    cursor: pointer;
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make it behave like a button */
+    transition: background-color 0.2s ease-in-out;
+    &:hover {
+      background-color: #3cff00; /* Slightly darker gray on hover */
+    }
+  }
+  
+  .categories {
+    display: flex;
+    justify-content: space-around; /* Distribute buttons evenly with more space */
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .category-button {
+    flex: 1;
+    padding: 15px 30px; 
+    font-weight: 600; 
+    text-align: center; 
+  }
+
+  .category-button {
+    background-color: rgba(46, 204, 113, 0.8); 
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0 10px; 
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .category-button:hover {
+    background-color: #27ae60; 
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .logo {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffffff;
+  }
+
+  .navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .navigation li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  .navigation a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .hero {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+
+  .hero p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 50px;
+  }
+
+  .cta {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cta button {
+    background-color: #2ECC71; 
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    margin: 10px; 
+    cursor: pointer;
+  }
+
+  .footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+  }
+  
+  .btn-glow {
+    box-shadow: 0 0 10px rgba(21, 221, 3, 0.5);
+}
+.btn:hover {
+  background-color: rgba(46, 204, 113, 0.8); /* Adjust the RGBA values and the opacity (last value) as needed */
+}
+.logo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.btn {
+  font-size: 1.8vw; /* Set font size relative to viewport width */
+  padding: 3vh 6vw; /* Set padding relative to viewport height and width */
+}
+.ureps{
+    
+  width: 250px; 
+  height: auto; 
+  margin-right: 20px; 
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Center items vertically */
+  margin-bottom: 30px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center; /* Align logo vertically with navigation */
+}
+
+.ureps {
+  height: auto;
+  max-height: 50px; /* Adjust the max-height as needed */
+}
+
+.header {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: space-between;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  height: 75vh; /* Set the height of the hero section to the full viewport height */
+}
+
+.hero h1,
+.hero p,
+.cta {
+  text-align: center; 
+  font-family:'Montserrat', sans-serif; ;
+}
+
+.cta {
+  margin-top: 30px; 
+}
+  .category-button {
+    color: #393b38;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.category-button {
+    background-color: #2ECC71;
+    color: #ffffff;
+    border-color: #2ECC71;
+    box-shadow: 0 0 10px rgba(21, 221, 3, 0.5);
+  }    
+
+.category-button:hover {
+  color: rgb(0, 0, 0);
+}
+
